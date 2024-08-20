@@ -14,5 +14,9 @@ public class arr {
         for(int i=0; i<a; i++){
             System.out.println(arr[i]);
         }
+        //for each 문
+        for(int i: arr){
+            System.out.println(i);
+        }
     }
 }

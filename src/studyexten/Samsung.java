@@ -1,11 +1,11 @@
     package studyexten;
 
-    public class samsung extends phone {//extends를 통해 상속받음
+    public class Samsung extends Phone {//extends를 통해 상속받음
         public String company;
         public String phoneModel;
         public int battery;
 
-        public samsung(String company, String phoneModel, int battery) {
+        public Samsung(String company, String phoneModel, int battery) {
             this.company = company;
             this.phoneModel = phoneModel;
             this.battery = battery;

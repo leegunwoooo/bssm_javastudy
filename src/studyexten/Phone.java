@@ -1,6 +1,6 @@
 package studyexten;
 
-public class phone {
+public class Phone {
     public boolean power = true;
 
     public void showInfo(){

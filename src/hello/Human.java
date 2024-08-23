@@ -1,12 +1,12 @@
 package hello;
 
-public class human {
+public class Human {
     int age;
     String name;
     String job;
     //필드
 
-    public human(int age, String name, String job){
+    public Human(int age, String name, String job){
         this.age = age;
         this.name = name;
         this.job = job;

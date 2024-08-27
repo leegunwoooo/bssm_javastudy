@@ -9,14 +9,14 @@ public class Exercise6_17 {
         System.out.println(java.util.Arrays.toString(result));
     }
 
-    static int[] shuffle(int[] arr){
-        for (int i = 0; i < arr.length; i++) {
-            int j = (int)(Math.random() * arr.length); // 수정된 부분
+        static int[] shuffle(int[] arr){
+            for (int i = 0; i < arr.length; i++) {
+                int j = (int)(Math.random() * arr.length); // 수정된 부분
 
-            int tmp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = tmp;
+                int tmp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = tmp;
+            }
+            return arr;
         }
-        return arr;
-    }
 }

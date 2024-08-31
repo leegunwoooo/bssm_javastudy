@@ -49,7 +49,7 @@ public class Exercise6_19 {
     public static void main(String[] args) {
         MyTv t = new MyTv();
 
-        t.channel = 100;
+        t.channel = 10;
         t.volume = 0;
         System.out.println("CH:" + t.channel + ", VOL:" + t.volume);
 

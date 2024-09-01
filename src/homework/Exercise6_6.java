@@ -2,14 +2,14 @@ package homework;
 
 public class Exercise6_6 {
     public static void main(String[] args) {
-        Mypoint p = new Mypoint(1, 1);
+        MyPoint p = new MyPoint(1, 1);
         System.out.println(p.getDistance(2,2));
     }
 }
-class Mypoint {
+class MyPoint {
     int x, y;
 
-    public Mypoint(int x, int y){
+    public MyPoint(int x, int y){
         this.x = x;
         this.y = y;
     }

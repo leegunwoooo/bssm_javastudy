@@ -13,7 +13,7 @@
 
         @Override
         public void showInfo() {//오버라이드 다음장에 설명
-            System.out.println("전원 유무 : " + power);
+            System.out.println("전원 유무: " + power);
             System.out.println("제작회사 : " + company);
             System.out.println("폰 기종 : " + phoneModel);
             System.out.println("배터리 잔량 : " + battery);

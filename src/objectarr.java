@@ -10,7 +10,7 @@ public class objectarr {
         books[0].price = 3000;
         books[0].title = "Java의 정석";
         books[1].price = 5000;
-        books[1].title = "객체지향의 오해와 사실";
+        books[1].title = "객체지향의 오해와 사";
 
         for(int i=0; i<2; i++){
             books[i].showInfo();

@@ -1,0 +1,13 @@
+public class Parent {
+    int a;
+    public Parent(int n){
+        a = n;
+    }
+}
+class Child extends Parent {
+    int b;
+    public Child(int n){
+        super(40);
+        b = 20;
+    }
+}

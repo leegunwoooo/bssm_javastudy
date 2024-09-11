@@ -7,7 +7,7 @@ public class Parent {
 class Child extends Parent {
     int b;
     public Child(int n){
-        super(40);
+        super(30);
         b = 20;
     }
 }

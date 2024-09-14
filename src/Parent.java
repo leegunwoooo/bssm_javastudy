@@ -1,7 +1,7 @@
 public class Parent {
     int a;
     public Parent(int n){
-        a = n;
+        a = n++;
     }
 }
 class Child extends Parent {

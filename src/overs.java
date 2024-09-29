@@ -4,8 +4,8 @@ public class overs {
             void draw() {
                 System.out.println("Drawing Shape");
             }
-            void draw(String color) {//오버로딩 매개변수가 달라짐
-                System.out.println("Drawing " + color + " Shape");
+            void draw(String colors) {//오버로딩 매개변수가 달라짐
+                System.out.println("Drawing " + colors + " Shape");
             }
         }
         class Circle extends Shape {

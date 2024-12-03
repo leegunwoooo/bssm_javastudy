@@ -6,8 +6,8 @@ interface Sum {
 
 public class lamda {
     public static void main(String[] args) {
-        Sum sum = (a, b) -> a + b; // 람다식으로 구현
+        Sum sum = (a, b) -> a + b;
         int result = sum.apply(5, 10);
-        System.out.println("Sum: " + result); // 출력: Sum: 15
+        System.out.println("Sum: " + result);
     }
 }
